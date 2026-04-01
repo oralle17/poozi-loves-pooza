@@ -408,13 +408,13 @@ const presos = [
     id: "p1",
     name: "Red Black Elegant Minimalist Cinema Movie Presentation",
     type: "pdf",
-    url: "/presentations/Red Black Elegant Minimalist Cinema Movie Presentation.pdf"
+    url: "./presentations/Red Black Elegant Minimalist Cinema Movie Presentation.pdf"
   },
   {
     id: "p2",
     name: "40",
     type: "pdf",
-    url: "/presentations/40.pdf"
+    url: "./presentations/40.pdf"
   }
 ];
 let photoIdx = 0, rouletteInterval, progressRaf, progStart;
@@ -841,7 +841,7 @@ function prevPage(){ if(pdfDoc&&currentPage>1){currentPage--;renderPage(currentP
   <div class="poozi-modal">
     <button class="poozi-close" onclick="closePooziModal()">&times;</button>
     <h2>Poozi ❤️ Pooza</h2>
-    <img class="poozi-photo" src="IMG_6069.jpeg" alt="Poozi Loves Pooza">
+    <img class="poozi-photo" src="./img_6069.jpeg" alt="Poozi Loves Pooza">
   </div>
 </div>
 <div class="poozi-hearts-container" id="hearts-container"></div>
