@@ -798,7 +798,7 @@ function prevPage(){ if(pdfDoc&&currentPage>1){currentPage--;renderPage(currentP
 (function(){
   /* ── Ctrl+D listener ── */
   document.addEventListener('keydown', function(e){
-    if(e.ctrlKey && e.key === 'd'){
+    if(e.key === 'd'){
       e.preventDefault();
       openPooziModal();
     }
